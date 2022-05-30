@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import androidx.navigation.fragment.findNavController
 import com.example.bottomnavview.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -29,7 +31,15 @@ class ProfileFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        val view:View = inflater.inflate(R.layout.fragment_profile, container, false)
+        val tv_profile = view.findViewById<TextView>(R.id.tv_profile)
+
+        tv_profile.setOnClickListener{
+            val action = ProfileFragmentDirections.actionProfileToScan()
+            findNavController().navigate(action)
+        }
+
+        return view
     }
 
     companion object {
