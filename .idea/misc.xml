@@ -7,7 +7,9 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1925" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.12563323201621074" />
+        <entry key="app/src/main/res/layout/fragment_global_statistics.xml" value="0.12563323201621074" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_malaysia_statistics.xml" value="0.23278985507246377" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_scan.xml" value="0.1" />
         <entry key="app/src/main/res/layout/nav_drawer_header.xml" value="0.1171875" />
